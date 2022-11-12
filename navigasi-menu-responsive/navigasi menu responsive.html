@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML JS CSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <!-- <script src="jquery.js"></script> -->
+</head>
+
+<body>
+    <div class="parallax-1">
+        <header id="nav">
+            <div class="logo">HENING</div>
+            <nav>
+                <ul>
+                    <li><a id="element">
+                    <div class="menu-toggle second" style="display: none;">
+                        <i class="fa fa-times"></i>
+                    </div></a>
+                   </li>
+
+                    <li><a href="#home" id="element">Home</a></li>
+                    <li><a href="bintang.html" id="element">About</a></li>
+                    <li><a href="lilin.html" id="element">Service</a></li>
+                    <li><a href="#contact" id="element">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle first">
+                <i class="fa fa-bars"></i>
+            </div>
+        </header>
+
+
+        <div class="slide-image">
+            <div class="container-first">
+                <div class="image">
+                    <img src="https://drscdn.500px.org/photo/25527273/q%3D80_m%3D1500/v2?sig=bf7d2615eccdeba68e80c95131544bb68655c85f7ba32a41156c57f6e8dc74bb" alt="gambar1" />
+                </div>
+                <div class="image">
+                    <img src="https://drscdn.500px.org/photo/114483209/q%3D80_m%3D1500/v2?sig=fbb53f2fbb7795584ad86212dfe0b6df77b9666fa0542114a024570493b670ad" alt="gambar2" />
+                </div>
+                <div class="image">
+                    <img src="https://drscdn.500px.org/photo/152261347/q%3D80_m%3D1500/v2?sig=ab7272b42a29e5dbcd1577deae2511e07ee33a40398b802e1ee361f599231ca4" alt="gambar3" />
+                </div>
+                <div class="image">
+                    <img src="https://drscdn.500px.org/photo/1055885085/q%3D80_m%3D1500/v2?sig=1998cda7d8557186b60f829b62086b0dc2363e6387b4c641514675520f8351ce" alt="gambar4" />
+                </div>
+                <div class="image">
+                    <img src="https://drscdn.500px.org/photo/1055917827/q%3D80_m%3D2000/v2?sig=69ac448038dbfa01012a4c97054b3d26954a409431b35ff5c8ea6a5f9107db88" alt="gambar5">
+                </div>             
+           
+    
+                <div class="button">
+                    <a onclick="nextimg(-1)" class="prev">&#10094;</a>
+                    <a onclick="nextimg(1)" class="next">&#10095;</a>
+                </div>
+        
+                <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <div class="parallax-2">
+        <div class="container">
+            <div class="flex1">
+                <button class="btn btn-pagi" onclick="openMood(event, 'Pagi')">Pagi</button>
+                <button class="btn btn-siang" onclick="openMood(event, 'Siang')">Siang</button>
+                <button class="btn btn-sore" onclick="openMood(event, 'Sore')">Sore</button>
+                <button class="btn btn-malam" onclick="openMood(event, 'Malam')">Malam</button>
+            </div>
+            <div id="Pagi" class="card" style="display: block;">
+                <p class="p-title">Pagi</p>
+                <label for="you" class="p-contents">
+                    Pagi itu, udara cukup dingin.. aku berjalan di dalam taburan-taburan embun pagi untuk menyehatkan badanku, suasana masih sepi dan damai..
+                    Suara burung-burung mulai terdengar sesekali, mungkin mereka sudah bangun dari tidur indahnya...
+                </label>
+            </div>
+            <div id="Siang" class="card">
+                <p class="p-title">Siang</p>
+                <label for="you" class="p-contents">
+                   Siang itu, matahari bersinar sangat terik... langit berwarna biru cerah dan awan hitam yang biasanya muncul, hari itu tidak ada sama sekali...
+                   Saat itu aku lagi berada di atas bukit memandang indahnya lembah sambil menikmati tiupan angin sepoi-sepoi di bukit itu...
+                </label>
+            </div>
+            <div id="Sore" class="card">
+                <p class="p-title">Sore</p>
+                <label for="you" class="p-contents">
+                   Siang telah memasuki ujungnya, matahari yang awalnya bersinar sangat terik, kini mulai memudar di gantikan dengan sinar kuning yang hangat.... 
+                   Sementara jauh di ufuk barat sana, sebuah awan terlukis dengan indah seakan-akan menghantarkan kepergian sang mentari sore itu...
+                </label>
+            </div>
+            <div id="Malam" class="card">
+                <p class="p-title">Malam</p>
+                <label for="you" class="p-contents">
+                    Hari mulai gelap, cahaya mentari mulai meninggalkan peredaran bumi, di langit perlahan-lahan muncul ribuan bintang menggantikan sang mentari... 
+                    Sinarnya berkelap-kelip begitu indah di pandang, mungkin dia sedang menunggu kedatangan rembulan yang sebentar lagi akan menghiasi langit... 
+                    Jauh di ufuk timur rembulan 14 hari mulai menampakkan dirinya, Sinarnya begitu indah dan sejuk, hadirnya seakan-akan membawa kedamaian pada siapa
+                    saja yang menatapnya...
+                </label>
+            </div>
+        </div>
+
+    </div>
+    <div class="parallax-3">
+        <div class="three-one">
+            <p class="word-p">Hello, Cuaca Disini Lagi Mendung.. Bagaimana dengan cuacamu di sana?..</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".menu-toggle.first").click(function () {
+                $('nav').toggleClass('active');
+                $(".first").hide();
+                $(".second").show();
+            })
+            $(".menu-toggle.second").click(function () {
+                $('nav').toggleClass('active');
+                $(".first").show();
+                $(".second").hide();
+            })
+        })
+    </script>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                var element = document.getElementById("nav");
+                var element1 = document.querySelectorAll("ul > li > a");
+                element.classList.add("mystyle");
+                for (var y = 0; y < element1.length; y++) {
+                element1[y].classList.add("mystyle1");
+                }
+            } else {
+                var element = document.getElementById("nav");
+                var element1 = document.querySelectorAll("ul > li > a");
+                element.classList.remove("mystyle");
+                for (var y = 0; y < element1.length; y++) {
+                element1[y].classList.remove("mystyle1");
+                }
+            }
+        }
+    </script>
+    <script>
+        function openMood(evt, moodName) {
+        var i, card, btn;
+        card = document.getElementsByClassName("card");
+        for (i = 0; i < card.length; i++) {
+        //    card[i].style.display = "none";
+        }
+        btn = document.getElementsByClassName("btn");
+        for (i = 0; i < btn.length; i++) {
+            btn[i].className = btn[i].className.replace(" active", "");
+        }
+        document.getElementById(moodName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <script type="text/javascript">
+      var imageno =1;
+        displayimg(imageno);
+
+        function nextimg(n){
+            displayimg(imageno += n)
+        }
+
+        function currentSlide(n){
+            displayimg(imageno = n)
+        }
+
+        function displayimg(n){
+            var i;
+            var image = document.getElementsByClassName("image");
+            var dots = document.getElementsByClassName("dot");
+
+            if(n > image.length){
+                imageno = 1;
+            }
+
+            if(n < 1){
+                imageno = image.length;
+            }
+
+            for(i=0; i < image.length; i++){
+                image[i].style.display = "none";
+                image[i].className = image[i].className.replace(" active", "");
+            }
+
+            for(i=0; i < dots.length; i++){
+                dots[i].className = dots[i].className.replace(" active1", "");
+            }
+
+            image[imageno - 1].style.display ="block";
+            image[imageno - 1].className += " active";
+            dots[imageno - 1].className += " active1";
+
+            
+        }
+        // Auto Slide   if you need auto slide ,remove the commit "//"
+
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("image");
+        var dots = document.getElementsByClassName("dot");
+          
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            slides[i].className = slides[i].className.replace(" active", "");
+            
+        }
+         slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 
+        }
+
+        for(i=0; i < dots.length; i++){
+                dots[i].className = dots[i].className.replace(" active1", "");
+            }
+       
+
+        slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex - 1].className += " active";
+        dots[slideIndex  - 1].className += " active1";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow Image</title>
+
+    <style>
+        .mySlides{
+            position: absolute;
+            opacity: 0;
+            width: 100%;
+            }
+
+            .mySlides.active{
+            position: static;
+            opacity: 1;
+            width: 100%;
+            }
+
+            .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            left: 50%;
+            position: static;
+            }
+            /* Fading animation */
+            /* .fadein {
+            animation-name: fadein;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+
+            }
+
+            .fadeout {
+            animation-name: fadeout;
+            animation-duration: 4s;
+            animation-timing-function: linear;
+            }
+
+            @keyframes fadein {
+            from {
+            transform: translateX(-1000px);
+                    }
+
+            to {
+            transform: translateX(0px);
+                    }
+                }
+            @keyframes fadeout {
+            from {
+            transform: translateX(0px);
+                    }
+
+            to {
+            transform: translateX(1000px);
+            }
+            } */
+    </style>
+</head>
+<body>
+    <div id="slide"> <h1>This is my slideshow.</h1> </div> <br/>
+        <!-- <div class="slideshow-container container" onmouseover="stopSlide()" onmouseleave="resumeSlide()"> -->
+        <div class="mySlides">
+            <div class="numbertext">1 / 5</div>
+            <img src="https://drscdn.500px.org/photo/25527273/q%3D80_m%3D1500/v2?sig=bf7d2615eccdeba68e80c95131544bb68655c85f7ba32a41156c57f6e8dc74bb" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img src="https://drscdn.500px.org/photo/114483209/q%3D80_m%3D1500/v2?sig=fbb53f2fbb7795584ad86212dfe0b6df77b9666fa0542114a024570493b670ad" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img src="https://drscdn.500px.org/photo/152261347/q%3D80_m%3D1500/v2?sig=ab7272b42a29e5dbcd1577deae2511e07ee33a40398b802e1ee361f599231ca4" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img src="https://drscdn.500px.org/photo/1055885085/q%3D80_m%3D1500/v2?sig=1998cda7d8557186b60f829b62086b0dc2363e6387b4c641514675520f8351ce" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="https://drscdn.500px.org/photo/1055917827/q%3D80_m%3D2000/v2?sig=69ac448038dbfa01012a4c97054b3d26954a409431b35ff5c8ea6a5f9107db88" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+        </div>
+
+
+        <br>
+        <div style="text-align:center" >
+        <span class="dot" onclick="dotclick()"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span>
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        </div>
+        <script>
+            var slideIndex = 0;
+            var timer;
+
+            function showSlides() {
+            var i;
+            { 
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.transition  = "3.0s";
+                slides[i].style.opacity = "0";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", " ");
+            }
+            slides[slideIndex-1].style.transition  = "3.0s";
+            slides[slideIndex-1].style.opacity = "1";
+            
+            dots[slideIndex-1].classList.add("active"); 
+            
+            timer = setTimeout(showSlides, 3000);
+            }
+            } 
+
+            function stopSlide(){
+            clearTimeout (timer);
+            }
+
+            function resumeSlide(){
+                timer = setTimeout(showSlides, 3000);
+            }
+
+
+        </script>
+
+</body>
+</html>
