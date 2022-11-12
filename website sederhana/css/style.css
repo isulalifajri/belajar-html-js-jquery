@@ -1,0 +1,195 @@
+*, html, body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+header{
+    background: #1A2238;
+    color:#eaeaea;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    
+}
+.logo{
+    margin-right:auto;
+    display: flex;
+    gap:6px;
+}
+.logo-img{
+    width:35px;
+    height:35px;
+    margin-left: 20px;
+}
+.logo-title{
+    margin-left:10px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.logo:hover{
+    color:orangered;
+    transform: rotate(2deg);
+}
+.btn-cta{
+    margin-right:10px;
+    border:none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background:orangered;
+    color:white;
+    border-radius: 8px;
+    cursor:pointer;
+}
+/* menu navbar ada di sebelah kiri kecuali button */
+/* nav{
+    width:100%;
+} */
+nav ul{
+    display: flex;
+    padding:20px;
+}
+li{
+    list-style-type: none;
+    padding:10px;
+}
+li a{
+    transition: all 0.5s ease 0s;
+    display: inline-block;
+}
+li a:hover{
+    color:orangered;
+    transform: rotate(2deg);
+}
+a{
+    color:#eaeaea;
+    text-decoration:none;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 70px 0;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px; /* memberi jarak atas */
+    text-align: center;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.img-foto{
+    width:100%;
+    max-width:500px;
+    height:auto;
+    padding:10px;
+}
+.parallax{
+    background-image: url('../gambar/mentari.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.tentang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    background: #1A2238;
+    padding:40px;
+    /*gap: 20px; */
+}
+.mt-10{
+  margin-top: 20px;  
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.card-item{
+    text-align: center;
+    /* margin: 10px; */
+    width: 20%;
+    background: #f7f7f7;
+    color:black;
+    padding:24px;
+    box-shadow: 2px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    /* membuat content jadi vertikal */
+    /* flex-wrap: wrap;   */
+}
+.icon{
+    width:75px;
+    height: 75px;
+    margin: 10px;
+    padding: 8px;
+}
+.card-title{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.card-description{
+    margin-top: 4px;
+    font-size: 14px;
+    /* font-weight: small; */
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #1A2238;
+    color:#eaeaea;
+}
+@media screen and (max-width: 500px) {
+    .card{
+        flex-direction: column;
+        gap: 0;
+    }
+    .card-item{
+        width: 100%;
+    }
+    .container{
+        padding: 0;
+        width:100%;
+    }
+    .intro{
+        margin-top: 20px;
+        /* margin-bottom: 20px; */
+    }
+    .img-foto{
+        padding: 0;
+    }
+    nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #1A2238;
+        z-index: 9;
+    }
+    footer{
+        position: fixed;
+        bottom: 80px;
+        width: 100%;
+        font-size: 12px;
+        background: #1A2238;
+        z-index: 9;
+        padding: 2px;
+    }
+    
+}

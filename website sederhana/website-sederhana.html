@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Membuat Web Sederhana</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="gambar/merpati.jpg" alt="logo" class="logo-img">
+            <h1 class="logo-title">Izul X</h1>
+        </div>
+        <nav>
+            <ul>
+                <!-- <li><a href="">TENTANG</a></li> -->
+                <li><a href="#hobi">HOBI</a></li>
+                <li><a href="mailto:kucing@gmail.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Isul Alifajri Here!</p>
+            <p class="description">Programming Web From Bumi</p>
+            <img src="gambar/mentari.jpg" alt="gambar 1" class="img-foto">
+        </div>
+    </div>
+    <div class="parallax">
+        <div class="tentang" id="hobi">
+            <p class="title">Saya senang melihat keindahan alam</p>
+            <p class="description">berjalan dalam hamparan embun di pagi hari...</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">mari bercerita</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="card-item">
+                    <img src="gambar/2.jpg" alt="icon 1" class="icon">
+                    <p class="card-title">di atas puncak bukit memandang keindahan lembah</p>
+                    <p class="card-description">jauh di selatan sana terdapat hamparan lembah yang begitu indah, sedangkan langit dan samudera menyatu bagaikan dinding biru yang memagari lembah</p>
+                </div>
+                <div class="card-item">
+                    <img src="gambar/3.jpg" alt="icon 2" class="icon">
+                    <p class="card-title">di atas puncak bukit memandang keindahan lembah</p>
+                    <p class="card-description">jauh di selatan sana terdapat hamparan lembah yang begitu indah, sedangkan langit dan samudera menyatu bagaikan dinding biru yang memagari lembah</p>
+                </div>
+                <div class="card-item">
+                    <img src="gambar/4.jpg" alt="icon 3" class="icon">
+                    <p class="card-title">di atas puncak bukit memandang keindahan lembah</p>
+                    <p class="card-description">jauh di selatan sana terdapat hamparan lembah yang begitu indah, sedangkan langit dan samudera menyatu bagaikan dinding biru yang memagari lembah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="title">&copy; Isul Alifajri Website 2022</p>
+    </footer>
+    <script>
+        function redirInstagram(){
+            window.location.href = "https://instagram.com"
+        }
+        function redirWhatsapp(){
+            window.location.href = "https://wa.me/+62829999999888"
+        }
+    </script>
+</body>
+</html>
