@@ -1,0 +1,55 @@
+animasi  hover :
+https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
+
+https://codepen.io/tag/text-animation
+
+
+admin bootstrap reference
+
+https://demo.getstisla.com/index.html
+
+
+scrool fixed jquery
+
+https://stackoverflow.com/questions/55238993/jquery-remove-fixed-class-when-scrolling-back-up
+
+//menuanimasijavascript
+https://alvarotrigo.com/blog/javascript-menus/
+
+catatan penting frontend
+
+https://www.w3schools.com/howto/howto_js_tabs.asp
+
+untuk animasi from to css
+
+https://bennettfeely.com/clippy/
+
+//ease in out js
+https://stackoverflow.com/questions/60853872/how-to-add-ease-in-out-effect-with-javascript
+
+//animasi javascript
+https://animejs.com/documentation
+
+//accordion
+https://codepen.io/radoslav-valchev/pen/QWNEjvX
+
+//scroll js
+https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop
+
+https://michalsnik.github.io/aos/
+
+https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671
+
+//scrolling animate jquery
+https://stackoverflow.com/questions/60457174/resetting-animation-effect-on-scroll-using-jquery
+https://www.jqueryscript.net/tags.php?/scroll%20animation/
+https://hughlashbrooke.com/2013/02/28/simple-animated-scroll-for-jquery/
+
+//slideshow js
+https://stackoverflow.com/questions/58803373/making-a-proper-fade-in-and-fade-out-for-a-slideshow
+
+//css animation library
+https://css-tricks.com/css-animation-libraries/
+
+//slider js
+https://stackoverflow.com/questions/44974149/horizontal-slider-with-pure-js
