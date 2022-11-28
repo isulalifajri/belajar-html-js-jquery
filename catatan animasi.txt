@@ -3,9 +3,11 @@ https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
 
 https://codepen.io/tag/text-animation
 
+//typing text animation
+https://codepen.io/denic/pen/GRoOxbM
 
-admin bootstrap reference
 
+//admin bootstrap reference
 https://demo.getstisla.com/index.html
 
 
