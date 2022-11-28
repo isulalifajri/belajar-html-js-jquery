@@ -5,6 +5,7 @@ https://codepen.io/tag/text-animation
 
 //typing text animation
 https://codepen.io/denic/pen/GRoOxbM
+https://freefrontend.com/css-typing-text/
 
 
 //admin bootstrap reference
