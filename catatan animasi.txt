@@ -7,6 +7,11 @@ https://codepen.io/tag/text-animation
 https://codepen.io/denic/pen/GRoOxbM
 https://freefrontend.com/css-typing-text/
 
+//animate when scrolling in javascript
+https://codepen.io/tutsplus/pen/QWGYKMN
+
+//animate saat hover berjalan ke samping saat scroll
+https://stackoverflow.com/questions/68559022/start-animation-when-scrolled-into-view
 
 //admin bootstrap reference
 https://demo.getstisla.com/index.html
