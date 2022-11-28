@@ -12,7 +12,7 @@ https://freefrontend.com/css-typing-text/
 https://demo.getstisla.com/index.html
 
 
-scrool fixed jquery
+//scrool fixed jquery
 
 https://stackoverflow.com/questions/55238993/jquery-remove-fixed-class-when-scrolling-back-up
 
