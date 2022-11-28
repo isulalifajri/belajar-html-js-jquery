@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animasi Ganti Kata</title>
+    <style>
+        body {
+            background: green;
+        }
+  
+        h1 {
+            display: flex;
+            justify-content: center;
+            color: white;
+        }
+  
+        p::before {
+            content: "Geeks";
+            animation: animate infinite 3s;
+            padding-left: 10px;
+        }
+  
+        @keyframes animate {
+  
+            0% {
+                content: "Geeks";
+                transform: translateY(0px);
+            }
+  
+            50% {
+                content: "for";
+                transform: translateY(-400px);
+            }
+  
+            75% {
+                content: "Geeks";
+            }
+
+            100%{
+                content: url('label');
+            }
+        }
+        /* animasi kedua */
+        .animated{
+        display: inline;
+        text-indent: 8px;
+        }
+
+        .animated span{
+            color: red;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            animation: topToBottom 5s  linear infinite ;
+        }
+
+        .animated span:nth-child(2){
+        animation-delay: 1s;
+        /* -ms-animation-delay: 1s;
+        -webkit-animation-delay: 1s; */
+        }
+
+        .animated span:nth-child(3){
+        animation-delay: 2s;
+        /* -ms-animation-delay: 2s;
+        -webkit-animation-delay: 2s; */
+        }
+
+        .animated span:nth-child(4){
+        animation-delay: 3s;
+        /* -ms-animation-delay: 3s;
+        -webkit-animation-delay: 3s; */
+        }
+
+        .animated span:nth-child(5){
+        animation-delay: 4s;
+        /* -ms-animation-delay: 4s;
+        -webkit-animation-delay: 4s; */
+        }
+
+        @keyframes topToBottom{
+        0% { opacity: 1;}
+        25% { opacity: 0;}
+        50% { opacity: 0;}
+        75% { opacity: 0;}
+        100% { opacity: 0;}
+        }
+        /* animasi ketiga */
+        #spin {
+        color:blue;
+        }
+        #spin:after {
+        content:"";
+        animation: spin 5s linear infinite;
+        }
+        @keyframes spin {
+        0% { content:"ipsum";}
+        10% { content:"dolor";}
+        20% { content:"sit";}
+        30% { content:"amet";}
+        40% { content:"consectetur";}
+        50% { content: "adipisicing"; }
+        60% { content: "elit"; }
+        70% { content: "Hic"; }
+        80% { content: "atque"; }
+        90% { content: "fuga"; }
+        }
+         /* animated blank */
+         .animated-blank{
+            display: inline;
+            text-indent: 8px;
+            z-index:100;
+            }
+        .animated-blank span{
+            color: blue;
+            opacity: 0;
+            overflow: hidden;
+            position: absolute;
+            animation: topToBottom1 5s  linear infinite ;
+        }
+        .animated-blank span:nth-child(2){
+            animation-delay: 3s;
+        
+            }
+
+            /* .animated-blank span:nth-child(3){
+            animation-delay: 2s;
+        
+            }
+
+            .animated-blank span:nth-child(4){
+            animation-delay: 3s;
+        
+            }
+
+            .animated-blank span:nth-child(5){
+            animation-delay: 4s;
+        
+            } */
+
+            @keyframes topToBottom1{
+            0% { opacity: 1;}
+            /* 25% { opacity: 0;} */
+            50% { opacity: 0;}
+            /* 75% { opacity: 0;}
+            100% { opacity: 0;} */
+            }
+        /* end css animated blank */
+    </style>
+</head>
+<body>
+    <h1>I love 
+        <p></p>
+    <p class="hmm">hai</p></h1>
+    <h2>CSS Animations are
+        <div class="animated">
+          <span>cool.</span>
+          <span>neat.</span>
+          <span>awesome.</span>
+          <span>groovy.</span>
+          <span>magic.</span>
+        </div>
+    </h2>
+      <p>Lorem <span id="spin"></span></p>
+
+      <div class="animated-blank">
+        <span>Hai</span>
+        <span>Apa Kabar</span>
+      </div>
+<br>
+
+    
+</body>
+</html>
