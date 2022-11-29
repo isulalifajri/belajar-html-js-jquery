@@ -1,9 +1,14 @@
 animasi  hover :
 https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
 
-https://codepen.io/tag/text-animation
+//slider owl carousel image
+https://stackoverflow.com/questions/57057739/owl-carousel-2-slide-more-than-1-item-with-dots
+https://codepen.io/sepimran/pen/PoJRwzo -> Onclick Js
+https://codepen.io/jamesharmer/pen/oNgRoBw -> Onclick JS
+https://codepen.io/sheetalsinghwd/pen/JjoZzQr -> Autoplay Jquery
 
 //typing text animation
+https://codepen.io/tag/text-animation
 https://codepen.io/denic/pen/GRoOxbM
 https://freefrontend.com/css-typing-text/
 
@@ -19,21 +24,20 @@ https://demo.getstisla.com/index.html
 //slideshow image
 https://stackoverflow.com/questions/60715402/swiper-js-autoplay-slider -> swiper slider ->image grub slider
 https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+https://codepen.io/ugokuweb/pen/vYXzBGG
+https://kenwheeler.github.io/slick/
 
 
 //scrool fixed jquery
-
 https://stackoverflow.com/questions/55238993/jquery-remove-fixed-class-when-scrolling-back-up
 
 //menuanimasijavascript
 https://alvarotrigo.com/blog/javascript-menus/
 
-catatan penting frontend
-
+//catatan penting frontend
 https://www.w3schools.com/howto/howto_js_tabs.asp
 
-untuk animasi from to css
-
+//untuk animasi from to css
 https://bennettfeely.com/clippy/
 
 //ease in out js
