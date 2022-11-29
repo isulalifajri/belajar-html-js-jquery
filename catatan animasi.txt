@@ -16,6 +16,10 @@ https://stackoverflow.com/questions/68559022/start-animation-when-scrolled-into-
 //admin bootstrap reference
 https://demo.getstisla.com/index.html
 
+//slideshow image
+https://stackoverflow.com/questions/60715402/swiper-js-autoplay-slider -> swiper slider ->image grub slider
+https://css-tricks.com/snippets/jquery/simple-auto-playing-slideshow/
+
 
 //scrool fixed jquery
 
@@ -61,3 +65,6 @@ https://css-tricks.com/css-animation-libraries/
 
 //slider js
 https://stackoverflow.com/questions/44974149/horizontal-slider-with-pure-js
+
+//payment gateway
+https://midtrans.com/id/passport
