@@ -5,6 +5,7 @@ https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
 https://stackoverflow.com/questions/57057739/owl-carousel-2-slide-more-than-1-item-with-dots
 https://codepen.io/sepimran/pen/PoJRwzo -> Onclick Js
 https://codepen.io/jamesharmer/pen/oNgRoBw -> Onclick JS
+https://codepen.io/tag/owl%20carousel
 https://codepen.io/sheetalsinghwd/pen/JjoZzQr -> Autoplay Jquery
 
 //typing text animation
