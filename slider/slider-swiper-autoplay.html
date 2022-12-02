@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Slider Autoplay</title>
+
+    <style>
+        *,html,body{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .swipe{
+            align-items: center;
+            margin-top:20%;
+        }
+        .swiper-container{
+            height:100%;
+            width:100%;
+            padding:20px;
+            align-items:center;
+            text-align: center;
+        }
+        .swiper-slide{
+            padding:20px;
+            text-align: center;
+            height: auto;
+            margin:10px;
+        }
+        .s1{
+            background-color:red;
+        }
+        .s2{
+            background-color: aqua;
+        }
+        .s3{
+            background-color: yellow;
+        }
+        .s4{
+            background-color: green;
+        }
+        .s5{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    
+    <div class="swipe">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide s1">Slide 1</div>
+                <div class="swiper-slide s2">Slide 2</div>
+                <div class="swiper-slide s3">Slide 3</div>
+                <div class="swiper-slide s4">Slide 4</div>
+                <div class="swiper-slide s5">Slide 5</div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        loop:true,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        });
+  </script>
+</body>
+</html>
