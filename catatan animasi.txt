@@ -1,5 +1,8 @@
-animasi  hover :
+//animasi hover:
 https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
+
+//slow image scrooll
+https://stackoverflow.com/questions/29240028/css-make-a-background-image-scroll-slower-than-everything-else
 
 //slider owl carousel image
 https://stackoverflow.com/questions/57057739/owl-carousel-2-slide-more-than-1-item-with-dots
