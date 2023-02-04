@@ -1,3 +1,5 @@
+//lettering animate with js
+https://tobiasahlin.com/moving-letters/
 //animasi hover:
 https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
 
