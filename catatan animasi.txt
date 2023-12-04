@@ -2,6 +2,7 @@
 https://tobiasahlin.com/moving-letters/
 //animasi hover:
 https://bbbootstrap.com/snippets/bootstrap-5-simple-card-hover-effects-50607616
+https://dev.to/aman2221/how-to-use-textillate-js-233m
 
 //text animation
 https://www.jqueryscript.net/other/jQuery-Text-Animation-Plugin-with-CSS3.html
